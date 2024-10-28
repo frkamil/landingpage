@@ -1,0 +1,78 @@
+body {
+  background: pink;
+}
+
+.text {
+  background-color: #ffffffc2;
+  width: 600px;
+  border-radius: 25px;
+  padding: 25px 150px 50px;
+  margin: 25px auto;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+}
+
+img {
+  width: 300px;
+}
+
+input {
+  font-size: large;
+  width: 80px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.imgEffects {
+  filter: grayscale(80%) opacity(90%);
+}
+
+button {
+  transition-duration: 0.4s;
+  background-color: rgba(255, 0, 0, 0.129);
+  border-color: #aaaaaa;
+  font-size: 18px;
+  padding: 10px 12px;
+  border-radius: 4px;
+  width: 200px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #aaaaaacb;
+  border-color: rgba(0, 0, 0, 0.129);
+  cursor: pointer;
+}
+
+.quote {
+  font-size: 90%;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.ToDoList {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #ffffff2a;
+  width: 180px;
+  border-radius: 50px;
+  padding: 25px 100px 50px;
+  margin: 25px auto;
+}

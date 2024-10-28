@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="/js/setup.js"></script>
+    <script defer src="/js/landingpage.js"></script>
+    <script defer src="/js/todolist.js"></script>
+    <script defer src="/js/main.js"></script>
+  </head>
+  <body>
+    <div id="text" class="text">
+      <div id="customize">
+        <p>
+          <strong>
+            Please customize your landing page. When you are satisfied with how
+            it looks, press the "Go" button.</strong
+          >
+        </p>
+        <p>What is your Name: <input id="input-name" type="text" /></p>
+        <p>
+          Please chose a background:
+          <select id="theme-select">
+            <option value="0">Select theme:</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="pink">Pink</option>
+            <option value="black">Black</option>
+            <option value="grey">Grey</option>
+            <option value="white">White</option>
+            <option value="beach">Beach</option>
+            <option value="forest">Forest</option>
+            <option value="flower">Flowers</option>
+            <option value="space">Space</option>
+            <option value="mountain">Mountains</option>
+            <option value="urva">For Urva</option>
+          </select>
+        </p>
+        <p>
+          What color would you like the body?
+          <input type="color" id="bodycolor" value="#ffffff" />
+        </p>
+        <p>
+          What color would you like the text?
+          <input type="color" id="textcolor" value="#000000" />
+        </p>
+        <p>
+          What is your quote preference?
+          <select id="quotepref-select">
+            <option value="default">Select preference:</option>
+            <option value="inspiring">Inspiring</option>
+            <option value="funny">Funny</option>
+            <option value="happy">Happy</option>
+          </select>
+        </p>
+        <strong
+          >Are you sure? You can't change your landing page once you press
+          "Go"</strong
+        >
+        <p>
+          <button id="go-btn">Go</button>
+        </p>
+      </div>
+      <div id="landingpage">
+        <h1 class="center" id="helloname"></h1>
+        <p class="quote" id="quote"></p>
+        <p class="quote" id="funfact"></p>
+        <!-- 
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+         -->
+        <div class="ToDoList">
+          <h3>To Do List:</h3>
+          <div id="list"></div>
+
+          <p>
+            <select id="menu">
+              <option value="add">Add Item to End</option>
+              <option value="remove-last">Remove Last Item</option>
+              <option value="insert">Insert at Position</option>
+              <option value="remove-pos">Remove at Position</option>
+              <option value="move">Move to Position</option>
+              <option value="edit">Edit Item</option>
+              <option value="empty">Empty List</option>
+            </select>
+          </p>
+          <p>
+            <button id="todobtn">Edit To-do List</button>
+          </p>
+        </div>
+
+        <!-- 
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+          d
+         -->
+      </div>
+      <!-- End of landingpage div -->
+    </div>
+    <!-- end of text div -->
+  </body>
+</html>
+<!-- <img
+        src="img/beach.jpg"
+        alt="You can't see it, but trust me, it's pretty"
+      />
+      <h2></h2>
+      <p class="quote"></p> -->
