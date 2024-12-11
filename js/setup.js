@@ -9,7 +9,7 @@ function SetUp() {
 
   // Theme Selection
   let background = document.getElementById("theme-select").value;
-  if (background == "urva"){
+  if (background == "urva") {
     Urva = true;
   }
 
@@ -38,8 +38,6 @@ function SetUp() {
 
   document.getElementById("go-btn").style.background = `${bodyColor}c2`;
   document.getElementById("go-btn").style.color = textColor;
-  document.getElementById("todobtn").style.background = `${bodyColor}c2`;
-  document.getElementById("todobtn").style.color = textColor;
 
   //Change quote preferance
   quotetype = document.getElementById("quotepref-select").value;
