@@ -34,10 +34,5 @@ function quote() {
       "'Misery might love company, but so does joy. And joy throws muct better parties.'";
     document.getElementById("funfact").innerHTML =
       "Fun Fact : Snails can have up to 20,000 teeth.";
-  // } else if (background = "urva"){ 
-  //   +document.getElementById("quote").innerHTML =
-  //   "'Misery might love company, but so does joy. And joy throws muct better parties.'";
-
-
   }
 }
