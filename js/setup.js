@@ -1,6 +1,5 @@
 let name = "";
 let quotetype = "default";
-let Urva = false;
 
 function SetUp() {
   //Change visibility
@@ -9,9 +8,6 @@ function SetUp() {
 
   // Theme Selection
   let background = document.getElementById("theme-select").value;
-  if (background == "urva") {
-    Urva = true;
-  }
 
   //Change Background Image
   if (background !== "0") {
